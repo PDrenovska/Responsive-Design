@@ -242,6 +242,19 @@ article p {
 }
 
 /*======================================*/
+/*             FAQ PAGE
+/*======================================*/
+#faq { font-size: .9em;}
+#faq h4 {
+	color: #e88800;
+	line-height: 45px;
+}
+#faq p {
+	color: #8f8b8c;
+	line-height: 24px;
+}
+
+/*======================================*/
 /*             WEB FOOTER
 /*======================================*/
 #footer {
@@ -289,6 +302,8 @@ article p {
 @media only screen and (max-width: 480px) {
 	.wrapper { width: 100%;	}
 	.social {display: none;}
+	#top img { float: none;}
+	#top {text-align: center;}
 	#nav-wrapper { 
 	background: none;
 	padding: 0; 

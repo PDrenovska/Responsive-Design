@@ -1,0 +1,46 @@
+strong {
+	line-height: 38px;
+	font-weight: bold;
+	color: #1f1919;
+	display: block;
+}
+
+#header .wrapper {
+	background: url('../images/page-header-bckgr.jpg') 0 0 no-repeat;
+	height: 238px;
+}
+
+#feat-wrapper {
+	width: 32%;
+	float: left;
+}
+#feat-wrapper p {
+	font-size: .9em;
+	color: #8f8b8c;
+	line-height: 22px;
+}
+#feat-wrapper .read-more {
+	margin-top: 27px;
+}
+.single {
+	padding-right: 5%;
+	width: 61%;
+}
+article p {
+	width: 100%;
+	margin: 0;
+}
+.features {
+	float: none;
+	width: 100%;
+	margin-top: 0;
+}
+.service {
+	display: inline-block;
+	line-height: 30px;
+	padding: 0 18px;
+	background: #e88800;
+	color: #fff;
+	text-transform: capitalize;
+	margin-top: 10px;
+}
