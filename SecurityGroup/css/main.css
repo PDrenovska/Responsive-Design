@@ -8,39 +8,22 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, small, strong, dl, dt,
 	font: inherit;
 	vertical-align: baseline;
 }
-
-@font-face {
-	/*font-family: "My Font";
-	url: "../fonts/my-font.ttf";*/
-}
-
-/* fix for old browsers */
-article, aside, details, figcaption, figure, footer, header, nav, section {
-	display: block;
-}
-
+article, aside, details, figcaption, figure, footer, header, nav, section {display: block;}
 body {
 	line-height: 1;
 	font-family: Arial;
 	font-size: 14px;
 }
 
-ol, ul {
-	list-style: none;
-}
-
-a {
-	text-decoration: none;
-}
+ol, ul {list-style: none;}
+a {	text-decoration: none;}
 
 #nav ul,
 #services,
 .social ul,
 #top,
 #main .wrapper,
-.clear {
-	zoom: 1;
-}
+.clear { zoom: 1;}
 
 #nav ul:after,
 #services:after,
@@ -73,12 +56,8 @@ a {
 	background: url('../images/header-bckgr.jpg') 0 0 no-repeat;
 	height: 603px;
 }
-#top {
-	padding-top: 45px;
-}
-#top img {
-	float: left;
-}
+#top { padding-top: 45px;}
+#top img { float: left;}
 #slogan {
 	color: #8f8b8c;
 	font-size: .9em;
@@ -249,9 +228,7 @@ article p {
 #news-wrapper .read-more {
 	margin-top: 0;
 }
-.news li {
-	margin-bottom: 20px;
-}
+.news li { margin-bottom: 20px;}
 .news a {
 	color: #e88800;
 	background: url('../images/link-news.png') 0 center no-repeat;
@@ -278,9 +255,7 @@ article p {
 	text-align: center;
 	line-height: 22px;
 }
-#footer a {
-	color: #e88800;
-}
+#footer a {	color: #e88800;}
 
 /*======================================*/
 /*            MEDIA QUERIES
@@ -313,7 +288,6 @@ article p {
 }
 @media only screen and (max-width: 480px) {
 	.wrapper { width: 100%;	}
-	#top img { padding-left: 15px;}
 	#nav-wrapper { 
 	background: none;
 	padding: 0; 
@@ -326,9 +300,7 @@ article p {
 		padding-left: 0;
 		height: auto;
 	}
-	#nav ul {
-		background: none;
-	}
+	#nav ul { background: none;	}
 
 	#nav li {
 		float: none;
