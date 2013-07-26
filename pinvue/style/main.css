@@ -1,0 +1,493 @@
+/*======================================*/
+/*              CSS RESET
+/*======================================*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, small, strong, dl, dt, dd, ol, ul, li, article, aside, footer, header, nav, section, time {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+@font-face {
+	font-family: "Pacifico";
+	src: url("../fonts/Pacifico.ttf") format("truetype");
+}
+@font-face {
+	font-family: "TitilliumText25L 999wt";
+	src: url("../fonts/TitilliumText25L.ttf") format("truetype");
+}
+@font-face {
+	font-family: "TitilliumText25L 800wt";
+	src: url("../fonts/TitilliumText25L001.ttf") format("truetype");
+}
+@font-face {
+	font-family: "TitilliumText25L 600wt";
+	src: url("../fonts/TitilliumText25L002.ttf") format("truetype");
+}
+@font-face {
+	font-family: "TitilliumText25L 400wt";
+	src: url("../fonts/TitilliumText25L003.ttf") format("truetype");
+}
+@font-face {
+	font-family: "TitilliumText25L 250wt";
+	src: url("../fonts/TitilliumText25L004.ttf") format("truetype");
+}
+@font-face {
+	font-family: "TitilliumText25L 1wt";
+	src: url("../fonts/TitilliumText25L005.ttf") format("truetype");
+}
+.clear {
+	zoom: 1;
+}
+.clear:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* fix for old browsers */
+article, aside, details, figcaption, figure, footer, header, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+h1 {
+	font-family: "Pacifico";
+	font-size: 69px;
+	color: #3a3a3a;
+	margin-top: 170px;
+	margin-left: 8px;
+}
+h1 span { color: #e41920; }
+h2 {
+	font-family: "TitilliumText25L 800wt";
+	font-size: 69px;
+	color: #ecf0f1;
+	text-align: center;
+	margin-top: 78px;
+}
+ol, ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*======================================*/
+/*            WEB CONTENT
+/*======================================*/
+#wrapper {
+	width: 100%;
+}
+.page {
+	width: 100%;
+	position: relative;
+}
+.content-wrapper {
+	width: 75%;
+	margin: 0 auto;
+	overflow: hidden;
+	color: #ecf0f1;
+	text-align: center;
+}
+
+/*======================================*/
+/*            WEB HEADER
+/*======================================*/
+#header {
+	background: #e2e2e2;
+	height: 104px;
+	z-index: 9999;
+}
+/*======================================*/
+/*            TOP NAVIGATION
+/*======================================*/
+.home-link {
+	display: block;
+	width: 240px;
+	height: 90px;
+	background: url('../images/logo-medium.png') 0 0 no-repeat;
+}
+#nav li {
+	float: left;
+	font-size: 23px;
+	font-family: "TitilliumText25L 1wt";
+	padding: 0 26px;
+	line-height: 104px;
+}
+#nav li:last-child {
+	float: right;
+}
+#nav ul li:first-child {
+	padding-left: 0;
+}
+#nav ul li:last-child {
+	padding-right: 0;
+}
+#nav a{
+	color: #000;
+}
+
+/*======================================*/
+/*            WEB PAGES
+/*======================================*/
+#home {	background: #ecf0f1;}
+#benefits { background: #e5272e; }
+#about { background: #bf1f25; }
+#how-it-works { background: #15c19f; }
+#testimonials { background: #089e80; }
+#packages { background: #bb2056; }
+#what-next { background: #a41547; }
+#contact { background: #1093c9; }
+#footer { background: #137fac; }
+
+#home .content-wrapper {
+	background: url('../images/iPhone-big.png') right bottom no-repeat;
+	text-align: left;
+}
+#home p {
+	color: #3a3a3a;
+}
+#home .sub-heading {
+	font-size: 30px;
+	font-family: "TitilliumText25L 600wt";
+	width: 250px;
+	margin-top: 80px;
+}
+#home .content {
+	font-size: 22px;
+	font-family: "TitilliumText25L 1wt";
+	width: 327px;
+	margin-top: 10px;
+	margin-bottom: 97px;
+}
+.anchor {
+	position: absolute;
+	top: -104px;
+}
+
+/*======================================*/
+/*            PAGE BENEFITS
+/*======================================*/
+
+#benefits li {
+	float: left;
+	width: 33%;
+}
+#benefits .sub-heading {
+	font-size: 30px;
+	font-family: "TitilliumText25L 250wt";
+}
+#benefits .sub-heading strong {
+	font-family: "TitilliumText25L 999wt";
+}
+#benefits .content {
+	font-size: 17px;
+	font-family: "TitilliumText25L 250wt";
+	margin: 20px auto 60px auto;
+	width: 90%;
+}
+#one, #two, #three {
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 130px;
+	margin-top: 80px;
+}
+#benefits #one { background-image: url(../images/vanity-icon.png); }
+#benefits #two { background-image: url(../images/manners-icon.png); }
+#benefits #three { background-image: url(../images/snoopers-icon.png); }
+
+/*======================================*/
+/*            PAGE ABOUT
+/*======================================*/
+#about .content-wrapper {
+
+}
+#about .sub-heading {
+	font-size: 34px;
+	font-family: "TitilliumText25L 1wt";
+	line-height: 90px;
+	margin-bottom: 48px;
+}
+#about .content {
+	font-size: 23px;
+	font-family: "TitilliumText25L 250wt";	
+	margin-left: 427px;
+	text-align: left;
+	margin-bottom: 40px;
+}
+#about img {
+	float: left;
+}
+
+/*======================================*/
+/*            PAGE HOW IT WORKS
+/*======================================*/
+#how-it-works .content-wrapper {
+	width: 78%;
+}
+#how-it-works li {
+	float: left;
+	width: 25%;
+	border: 13px solid;
+	margin-right: 80px;
+	padding-top: 32px;
+	margin-top: 56px;
+	margin-bottom: 43px;
+}
+#how-it-works ul li:last-child {
+	margin-right: 0;
+}
+#how-it-works .sub-heading {
+	font-size: 27px;
+	font-family: "TitilliumText25L 250wt";
+}
+#how-it-works .sub-heading strong {
+	font-family: "TitilliumText25L 999wt";
+}
+#how-it-works img {
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+
+/*======================================*/
+/*            PAGE TESTIMONIALS
+/*======================================*/
+#testimonials .content-wrapper {
+	width: 100%;
+}
+#testimonials .sub-heading {
+	font-size: 29px;
+	font-family: "TitilliumText25L 800wt";
+}
+/*======================================*/
+/*            PAGE PACKAGES
+/*======================================*/
+#packages {padding-bottom: 85px;}
+#packages .sub-heading {
+	font-size: 29px;
+	font-family: "TitilliumText25L 800wt";
+}
+#packages-table { margin: 60px auto 0 auto;}
+#packages-table .content { font-family: "TitilliumText25L 1wt";}
+#packages-table .sub-heading{ font-family: "TitilliumText25L 250wt";}
+#packages-table .sub-heading, #packages-table .content {color: #ecf0f1;}
+#packages-table td {
+	vertical-align: middle;
+	text-align: center;
+}
+#packages-table div {border: 7px solid #ecf0f1;}
+#packages-table span { font-family: "TitilliumText25L 1wt";}
+#packages-table .content strong { font-family: "TitilliumText25L 800wt"; }
+#packages-table .price { font-family: "TitilliumText25L 800wt";}
+#packages-table span, #packages-table .price {color: #bb2056;}
+#packages-table .bottom-package {background: #ecf0f1;}
+#packages-table .try {
+	display: block;
+	color: #ecf0f1;
+	background: #bb2056;
+	text-transform: uppercase;
+	font-family: "TitilliumText25L 999wt";
+}
+#packages-table .one { width: 150px; }
+#packages-table .two { width: 170px; }
+#packages-table .three { width: 200px; }
+#packages-table .one .sub-heading {
+	font-size: 45px;
+}
+#packages-table .two .sub-heading {
+	font-size: 52px;
+}
+#packages-table .three .sub-heading {
+	font-size: 60px;
+}
+#packages-table .one .content { font-size: 10px;}
+#packages-table .two .content { font-size: 11px;}
+#packages-table .three .content { font-size: 13px;}
+
+#packages-table .one span {	font-size: 14px; }
+#packages-table .two span {	font-size: 17px; }
+#packages-table .three span {	font-size: 20px; }
+#packages-table .one .price { 
+	font-size: 33px; 
+	line-height: 56px;
+}
+#packages-table .two .price { 
+	font-size: 38px; 
+	line-height: 64px;
+}
+#packages-table .three .price { 
+	font-size: 44px; 
+	line-height: 73px;
+}
+#packages-table .one .top-package {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	background: url('../images/badge-small.png') 0 0 no-repeat;
+}
+#packages-table .two .top-package {
+	padding-top: 50px;
+	padding-bottom: 40px;
+	background: url('../images/badge-medium.png') 0 0 no-repeat;
+}
+#packages-table .one.right .top-package {
+	background-position: right 0;
+}
+#packages-table .two.right .top-package {
+	background-position: right 0;
+}
+#packages-table .three .top-package {
+	padding-top: 60px;
+	padding-bottom: 45px;
+	background: url('../images/badge-large.png') center 0 no-repeat;
+}
+#packages-table .one .try {
+	font-size: 13px;
+	line-height: 23px;
+}
+#packages-table .two .try {
+	font-size: 15px;
+	line-height: 28px;
+}
+
+#packages-table .three .try {
+	font-size: 17px;
+	line-height: 31px;
+}
+/*======================================*/
+/*            PAGE WHAT NEXT
+/*======================================*/
+#what-next {
+	padding-bottom: 95px;
+}
+#what-next .sub-heading {
+	text-transform: uppercase;
+	font-size: 27px;
+	font-family: "TitilliumText25L 800wt";
+	margin-top: 70px;
+}
+#what-next .content {
+	font-size: 30px;
+	font-family: "TitilliumText25L 250wt";
+	text-align: justify;
+	margin-top: 35px;
+}
+/*======================================*/
+/*            PAGE CONTACT
+/*======================================*/
+#contact {
+	padding-bottom: 120px;
+}
+#contacts {
+	font-size: 30px;
+	font-family: "TitilliumText25L 1wt";
+	color: #ecf0f1;
+	margin: 70px auto 0 auto;
+	width: 100%;
+}
+#contacts td {vertical-align: top;}
+#contacts th {
+	font-size: 31px;
+	font-family: "TitilliumText25L 999wt";
+	text-align: left;
+	line-height: 68px;
+}
+#contacts label {float: left;}
+#contacts input {
+	height: 35px;
+	width: 362px;
+	float: right;
+}
+#contacts textarea {
+	width: 328px;
+	height: 135px;
+	float: right;
+}
+#form-column {width: 49%;}
+#contacts .info {
+	padding-left: 100px;
+	text-align: left;
+}
+
+/*======================================*/
+/*             WEB FOOTER
+/*======================================*/
+#footer {padding-bottom: 28px;}
+#footer .content-wrapper { text-align: center; }
+#footer .home-link {
+	width: 160px;
+	height: 70px;
+	background: url('../images/logo-small.png') 0 0 no-repeat;
+	margin: 34px auto 0 auto;
+}
+#footer .sub-heading {
+	font-size: 33px;
+	font-family: "TitilliumText25L 800wt";
+	margin-top: 50px;
+}
+#footer .content {
+	font-size: 19px;
+	font-family: "TitilliumText25L 1wt";
+	margin-top: 70px;
+}
+.social {
+	width: 246px;
+	margin: 25px auto 0 auto;
+}
+.social li {float: left;}
+.social a {
+	display: block;
+	width: 33px;
+	height: 33px;
+	background-image: url('../images/social.png');
+	background-repeat: no-repeat;
+	margin: 4px;
+}
+.social a.twitter:hover { background-position: 0 0; }
+.social a.vimeo:hover { background-position: -33px 0; }
+.social a.facebook:hover { background-position: -66px 0;}
+.social a.flickr:hover { background-position: -99px 0;}
+.social a.dribble:hover { background-position: -132px 0;}
+.social a.rss:hover { background-position: -165px 0;}
+
+.social a.twitter { background-position: 0 -33px; }
+.social a.vimeo { background-position: -33px -33px;}
+.social a.facebook { background-position: -66px -33px;}
+.social a.flickr { background-position: -99px -33px;}
+.social a.dribble { background-position: -132px -33px;}
+.social a.rss { background-position: -165px -33px;}
+
+@media only screen and (max-width: 1220px) {
+	h1 {
+		font-size: 65px;
+	}
+	#how-it-works li {
+		margin-right: 8%;
+	}
+	#contacts .info {
+		padding-left: 6%;
+	}
+	#form-column {
+		width: 55%;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.content-wrapper {
+		width: 85%;
+	}
+	#nav li {
+		padding: 0 22px;
+	}
+	h1 {
+		font-size: 60px;
+	}
+	#how-it-works li {
+		margin-right: 6%;
+		width: 26%;
+	}
+}
