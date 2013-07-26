@@ -12,7 +12,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, small, strong, dl, dt,
 
 @font-face {
 	font-family: TitilliumText;
-	src: url(../TitilliumText25L.ttf) format("truetype"), url(../TitilliumText25L.woff) format('woff');
+	src: url(../TitilliumText25L.otf) format("truetype");
 }
 @font-face {
 	font-family: "TitilliumText25L 800wt";
