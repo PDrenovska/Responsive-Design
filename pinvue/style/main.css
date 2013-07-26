@@ -11,11 +11,11 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, small, strong, dl, dt,
 }
 
 @font-face {
-	font-family: TitilliumText25L999wt;
-	src: url("../TitilliumText25L.ttf") format("truetype");
+	font-family: "TitilliumText25L 999wt";
+	src: url("../TitilliumText25L.ttf") format("truetype"), url('../TitilliumText25L.woff') format('woff');
 }
 @font-face {
-	font-family: TitilliumText25L800wt;
+	font-family: "TitilliumText25L 800wt";
 	src: url("../TitilliumText25L001.ttf") format("truetype");
 }
 @font-face {
@@ -180,7 +180,7 @@ a {
 	font-family: "TitilliumText25L 250wt";
 }
 #benefits .sub-heading strong {
-	font-family: TitilliumText25L999wt;
+	font-family: "TitilliumText25L 999wt";
 }
 #benefits .content {
 	font-size: 17px;
@@ -244,7 +244,7 @@ a {
 	font-family: "TitilliumText25L 250wt";
 }
 #how-it-works .sub-heading strong {
-	font-family: TitilliumText25L999wt;
+	font-family: "TitilliumText25L 999wt";
 }
 #how-it-works img {
 	margin-top: 50px;
@@ -288,7 +288,7 @@ a {
 	color: #ecf0f1;
 	background: #bb2056;
 	text-transform: uppercase;
-	font-family: TitilliumText25L999wt;
+	font-family: "TitilliumText25L 999wt";
 }
 #packages-table .one { width: 150px; }
 #packages-table .two { width: 170px; }
@@ -389,7 +389,7 @@ a {
 #contacts td {vertical-align: top;}
 #contacts th {
 	font-size: 31px;
-	font-family: TitilliumText25L999wt;
+	font-family: "TitilliumText25L 999wt";
 	text-align: left;
 	line-height: 68px;
 }
