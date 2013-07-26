@@ -1,28 +1,24 @@
 @font-face {
-	font-family: "Pacifico";
-	src: url("../fonts/Pacifico.eot") format("truetype");
-}
-@font-face {
 	font-family: "TitilliumText25L 999wt";
-	src: url("../fonts/TitilliumText25L.eot") format("truetype");
+	src: url("../TitilliumText25L.eot") format("truetype");
 }
 @font-face {
 	font-family: "TitilliumText25L 800wt";
-	src: url("../fonts/TitilliumText25L001.eot") format("truetype");
+	src: url("../TitilliumText25L001.eot") format("truetype");
 }
 @font-face {
 	font-family: "TitilliumText25L 600wt";
-	src: url("../fonts/TitilliumText25L002.eot") format("truetype");
+	src: url("../TitilliumText25L002.eot") format("truetype");
 }
 @font-face {
 	font-family: "TitilliumText25L 400wt";
-	src: url("../fonts/TitilliumText25L003.eot") format("truetype");
+	src: url("../TitilliumText25L003.eot") format("truetype");
 }
 @font-face {
 	font-family: "TitilliumText25L 250wt";
-	src: url("../fonts/TitilliumText25L004.eot") format("truetype");
+	src: url("../TitilliumText25L004.eot") format("truetype");
 }
 @font-face {
 	font-family: "TitilliumText25L 1wt";
-	src: url("../fonts/TitilliumText25L005.eot") format("truetype");
+	src: url("../TitilliumText25L005.eot") format("truetype");
 }
